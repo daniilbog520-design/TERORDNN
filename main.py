@@ -1,5 +1,4 @@
 from banner import banner
-from pystyle import *
 
 COLOR_CODE = {
     "RESET": "\033[0m",  
