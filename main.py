@@ -1,5 +1,5 @@
 from banner import banner
-from pystyle import *
+from pystyle import Colorate, Colors, Center
 
 COLOR_CODE = {
     "RESET": "\033[0m",  
