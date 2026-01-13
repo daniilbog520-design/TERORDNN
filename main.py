@@ -19,7 +19,7 @@ print(Colorate.Horizontal(Colors.green_to_white,Center.XCenter(banner)))
 select = input(f'{COLOR_CODE["RED"]}[+]{COLOR_CODE["BOLD"]} Выбрать >{COLOR_CODE["GREEN"]} ')
 if select == '1':
     from deanon import get_number
-    database_file = 'Terordnn.cvc' 
+    database_file = 'Terordnn.csv' 
     search_value = input(f'{COLOR_CODE["YELLOW"]}[!]Введите номер телефона обидчика:')
     get_number(database_file, search_value)
 elif select == '2':
